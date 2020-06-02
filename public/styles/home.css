@@ -1,0 +1,312 @@
+body {
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: yellowtail;
+    font-size: 35px;
+}
+
+.homeScreen {
+    margin-bottom: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../resources/images/homeWallpaper.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.homeTextContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texter {
+    color: #fff;
+    margin: auto;
+    width: 70%;
+}
+
+.bigLogo {
+    font-family: yellowtail;
+    font-size: 80px;
+}
+
+.textDescription {
+    font-size: 40px;
+}
+
+.imgContainer {
+    line-height: 100vh;
+    text-align: right;
+}
+
+#homeImg {
+    height: 70vh;
+    margin-right: 8vw;
+
+}
+
+.btn {
+    background-color: #749FD8;
+    color: #fff;
+}
+
+.sectionHeading {
+    font-size: 38px;
+}
+
+.cardHolder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.cardBox {
+    width: 100%;
+    text-align: center;
+}
+
+.cardImage {
+    height: 35vh;
+    width: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ourStory, .ourInnovations, .ourMotto {
+    margin-bottom: 15vh;
+}
+
+.cardText {
+    width: 35vh;
+}
+
+.founded {
+    background-image: url("../resources/images/founded.png");
+}
+
+.projects {
+    background-image: url("../resources/images/projects.png");
+}
+
+.recognition {
+    background-image: url("../resources/images/recognitions.png");
+}
+
+.d-box {
+    background-image: url("../resources/images/d-box.png");
+}
+
+.taylor-stitch {
+    background-image: url("../resources/images/project2.png");
+}
+
+.shiny-shoes {
+    background-image: url("../resources/images/project3.png");
+}
+
+.luisa {
+    background-image: url("../resources/images/luisa.jpg");
+}
+
+.sukant {
+    background-image: url("../resources/images/sukant.jpg");
+}
+
+.tuneer {
+    background-image: url("../resources/images/tuneer.png");
+}
+
+.img-motto {
+    width: 100%;
+}
+
+.mottoValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mottoValues > h3 {
+    color: #707070;
+    font-weight: bold;
+}
+
+.biggerText {
+    margin-top: 0;
+    font-size: 27px;
+}
+
+.mottoQuote {
+    text-align: center;
+    font-size: 25px;
+    color: #707070;
+}
+
+.ccHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(92, 92, 92);
+}
+
+.circularBox {
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+footer {
+    margin-top: 27vh;
+    height: fit-content;
+    width: 100vw;
+    background-color: #212529;
+    color: #D3D3D3;
+}
+
+.center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footerDivision:first-child {
+    line-height: 35vh;
+    font-family: yellowtail;
+    font-size: 40px;
+}
+
+.lightText {
+    color: #6C757D;
+}
+
+.footerDivision:nth-child(3), .footerDivision:nth-child(4), .footerDivision:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemContainer {
+    margin: auto;
+}
+
+.contact-us {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 65vw;
+}
+
+#btn-1:hover, #btn-2:hover, #btn-3:hover, #btn-4:hover, #btn-5:hover, #btn-6:hover {
+    transition-duration: 0.6s;
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 23px;
+    color: rgb(156, 156, 156);
+}
+
+.item:hover {
+    color: rgb(204, 204, 204);
+    transition-duration: 0.6s;
+}
+
+.mottoValuesCards {
+    display: flex;
+    flex-direction: row;
+}
+
+.mottoValuesCards:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    .imgContainer {
+        display: none;
+    }
+    .cardHolder {
+        display: flex;
+        flex-direction: column;
+    }
+    .texter {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .bigLogo {
+        font-size: 30px;
+        text-align: left;
+    }
+    #exploreButton {
+        width: 50vw;
+    }
+    .textDescription {
+        font-size: 20px;
+        text-align: left;
+    }
+    .logo {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: yellowtail;
+        font-size: 25px;
+    }
+    .btn-import {
+        margin-top: 30px;
+    }
+    .itemContainer {
+        display: none;
+    }
+    .contact-us {
+        font-size: 25px;
+        margin-bottom: 10px;
+        padding: 10vw;
+        width: 100vw;
+    }
+    .footerDivision {
+        margin: auto;
+    }
+    .ourStory, .ourInnovations, .ourMotto, .ourTeam {
+        padding: 0px 30px;
+    }
+    .cardText {
+        width: 100%;
+    }
+    .cardImage {
+        width: 100%;
+    }
+    .footerDivision:nth-child(2) {
+        margin: 0 20px;
+    }
+    .mottoValuesCards:nth-child(odd) {
+        text-align: left;
+    }
+    .mottoValues > h3 {
+        margin-top: 20px;
+    }
+}

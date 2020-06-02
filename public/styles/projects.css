@@ -1,0 +1,202 @@
+body {
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: yellowtail;
+    font-size: 35px;
+}
+
+.cardBox:hover {
+    box-shadow: 10px 20px 40px #3333338f;
+}
+
+.logoProjects {
+    padding-top: 20px;
+}
+
+.logoProjects > h1 {
+    text-align: center;
+    font-size: 10vh;
+    font-family: yellowtail;
+}
+
+.imageContainer {
+    width: 100vw;
+    padding-top: 30px;
+    text-align: center;
+    object-fit: fill;
+}
+
+.imgBanner {
+    max-width: 100vw;
+    display: block;
+}
+
+.project-display {
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.d-box {
+    background-image: url("../resources/images/d-box.png");
+}
+
+.taylor-stitch {
+    background-image: url("../resources/images/project2.png");
+}
+
+.shiny-shoes {
+    background-image: url("../resources/images/project3.png");
+}
+
+.a-hand-wash {
+    background-image: url("../resources/images/a-hand-sanitizer.png");
+}
+
+footer {
+    margin-top: 27vh;
+    height: fit-content;
+    width: 100vw;
+    background-color: #212529;
+    color: #D3D3D3;
+}
+
+.lightText {
+    color: #6C757D;
+}
+
+.footerDivision:nth-child(3), .footerDivision:nth-child(4), .footerDivision:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footerDivision:first-child {
+    line-height: 35vh;
+    font-family: yellowtail;
+    font-size: 40px;
+}
+
+.itemContainer {
+    margin: auto;
+}
+
+.contact-us {
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-left: 65vw;
+}
+
+#btn-1:hover, #btn-2:hover, #btn-3:hover, #btn-4:hover, #btn-5:hover, #btn-6:hover {
+    transition-duration: 0.6s;
+    color: #fff;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 23px;
+    color: rgb(156, 156, 156);
+}
+
+.item:hover {
+    color: rgb(204, 204, 204);
+    transition-duration: 0.6s;
+}
+
+.mottoValuesCards {
+    display: flex;
+    flex-direction: row;
+}
+
+.mottoValuesCards:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.cardHolder {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 150px;
+    padding-top: 100px;
+}
+
+.cardBox {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+.cardImage {
+    height: 35vh;
+    width: 35vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    .logo {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: yellowtail;
+        font-size: 25px;
+    }
+    .cardHolder {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: initial;
+        padding-top: 60px;
+    }
+    .cardImage {
+        width: 100%;
+    }
+    .itemContainer {
+        display: none;
+    }
+    .contact-us {
+        font-size: 25px;
+        margin-bottom: 10px;
+        padding: 10vw;
+        width: 100vw;
+    }
+    .footerDivision {
+        margin: auto;
+    }
+    .footerDivision:nth-child(2) {
+        margin: 0 20px;
+    }
+    .cardBox:hover {
+        transform: scale(1.02);
+        transition-duration: 2s;
+    }
+}
