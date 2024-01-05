@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 canaryGrapher/empowered-nation is built on the following main stack:
+
 - [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
 - [Chartio](https://chartio.com) – Business Intelligence
 - [Coveralls](https://coveralls.io/) – Code Coverage
@@ -70,11 +71,13 @@ canaryGrapher/empowered-nation is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 canaryGrapher/empowered-nation is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg' alt='Segment'/> [Segment](https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics) – Analytics Integrator
 - <img width='25' height='25' src='https://img.stackshare.io/service/9/TtrFaQ3j_400x400.png' alt='Chartio'/> [Chartio](https://chartio.com) – Business Intelligence
 - <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
@@ -143,14 +146,15 @@ canaryGrapher/empowered-nation is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [canaryGrapher/empowered-nation](https://github.com/canaryGrapher/empowered-nation)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|420<br/>Tools used|11/10/23 <br/>Report generated|
+|425<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -852,9 +856,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (339)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (344)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (339)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (344)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -903,6 +907,7 @@ Full tech stack [here](/techstack.md)
 |[camel-case](https://www.npmjs.com/camel-case)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|v5.3.1|06/02/20|var-greyShader |MIT|N/A|
 |[chai-subset](https://www.npmjs.com/chai-subset)|v1.6|06/02/20|var-greyShader |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v3.0.0|06/02/20|var-greyShader |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v3.4.0|06/02/20|var-greyShader |MIT|N/A|
 |[clean-css](https://www.npmjs.com/clean-css)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[clean-css-cli](https://www.npmjs.com/clean-css-cli)|v4.3.0|06/02/20|var-greyShader |MIT|N/A|
@@ -1002,6 +1007,7 @@ Full tech stack [here](/techstack.md)
 |[http](https://www.npmjs.com/http)|N/A|06/02/20|var-greyShader |BSD-2-Clause|N/A|
 |[http-errors](https://www.npmjs.com/http-errors)|v1.7.2|06/02/20|var-greyShader |MIT|N/A|
 |[https](https://www.npmjs.com/https)|N/A|06/02/20|var-greyShader |ISC|N/A|
+|[husky](https://www.npmjs.com/husky)|v0.14.3|06/02/20|var-greyShader |MIT|N/A|
 |[i](https://www.npmjs.com/i)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[iconv](https://www.npmjs.com/iconv)|N/A|06/02/20|var-greyShader |ISC|N/A|
 |[iconv-lite](https://www.npmjs.com/iconv-lite)|v0.4.24|06/02/20|var-greyShader |MIT|N/A|
@@ -1036,10 +1042,11 @@ Full tech stack [here](/techstack.md)
 |[lab](https://www.npmjs.com/lab)|N/A|06/02/20|var-greyShader |BSD-3-Clause|N/A|
 |[latest-version](https://www.npmjs.com/latest-version)|v5.1.0|06/02/20|var-greyShader |MIT|N/A|
 |[level](https://www.npmjs.com/level)|N/A|06/02/20|var-greyShader |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.1.3|06/02/20|var-greyShader |MIT|N/A|
 |[log](https://www.npmjs.com/log)|N/A|06/02/20|var-greyShader |ISC|N/A|
 |[make-dir](https://www.npmjs.com/make-dir)|v3.1.0|06/02/20|var-greyShader |MIT|N/A|
 |[markdown](https://www.npmjs.com/markdown)|N/A|06/02/20|var-greyShader |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v0.6.2|06/02/20|var-greyShader |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[](https://github.com/advisories/GHSA-ch52-vgq2-943f) (Low)|
+|[marked](https://www.npmjs.com/marked)|v0.6.2|06/02/20|var-greyShader |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[](https://github.com/advisories/GHSA-ch52-vgq2-943f) (Low)|
 |[matcha](https://www.npmjs.com/matcha)|v0.7.0|06/02/20|var-greyShader |MIT|N/A|
 |[merge](https://www.npmjs.com/merge)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[merge-descriptors](https://www.npmjs.com/merge-descriptors)|v1.0.1|06/02/20|var-greyShader |MIT|N/A|
@@ -1129,6 +1136,7 @@ Full tech stack [here](/techstack.md)
 |[safe-buffer](https://www.npmjs.com/safe-buffer)|v5.1.2|06/02/20|var-greyShader |MIT|N/A|
 |[safe-publish-latest](https://www.npmjs.com/safe-publish-latest)|v1.1.2|06/02/20|var-greyShader |MIT|N/A|
 |[seedrandom](https://www.npmjs.com/seedrandom)|v2.4.3|06/02/20|var-greyShader |MIT|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v8.2.3|06/02/20|var-greyShader |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
 |[send](https://www.npmjs.com/send)|v0.17.1|06/02/20|var-greyShader |MIT|N/A|
 |[serve](https://www.npmjs.com/serve)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[serve-static](https://www.npmjs.com/serve-static)|v1.14.1|06/02/20|var-greyShader |MIT|N/A|
@@ -1163,6 +1171,7 @@ Full tech stack [here](/techstack.md)
 |[tempfile](https://www.npmjs.com/tempfile)|v2.0.0|06/02/20|var-greyShader |MIT|N/A|
 |[tempy](https://www.npmjs.com/tempy)|v0.2.1|06/02/20|var-greyShader |MIT|N/A|
 |[terser](https://www.npmjs.com/terser)|v4.6.13|06/02/20|var-greyShader |BSD-2-Clause|[CVE-2022-25858](https://github.com/advisories/GHSA-4wf5-vphf-c2xc) (High)|
+|[test](https://www.npmjs.com/test)|N/A|06/02/20|var-greyShader |MIT|N/A|
 |[text-table](https://www.npmjs.com/text-table)|v0.2.0|06/02/20|var-greyShader |MIT|N/A|
 |[timekeeper](https://www.npmjs.com/timekeeper)|v2.0.0|06/02/20|var-greyShader |MIT|N/A|
 |[touch](https://www.npmjs.com/touch)|v3.1.0|06/02/20|var-greyShader |ISC|N/A|
@@ -1201,4 +1210,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
