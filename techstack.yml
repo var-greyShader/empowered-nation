@@ -2,7 +2,7 @@ repo_name: canaryGrapher/empowered-nation
 report_id: df5a6678984bc84036ed64f1306fc0a8
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:02:51+00:00'
+timestamp: '2024-02-29T18:30:49+00:00'
 requested_by: canaryGrapher
 provider: github
 branch: master
@@ -177,7 +177,7 @@ tools:
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   open_source: true
   hosted_saas: false
@@ -436,8 +436,8 @@ tools:
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
 - name: EditorConfig
-  description: 'A file format and collection of text editor plugins for maintaining
-    consistent coding styles '
+  description: A file format and collection of text editor plugins for maintaining
+    consistent coding styles
   website_url: http://editorconfig.org
   open_source: false
   hosted_saas: false
@@ -512,7 +512,7 @@ tools:
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
 - name: Monit
-  description: 'A free, open-source process supervision tool '
+  description: A free, open-source process supervision tool
   website_url: https://mmonit.com
   open_source: false
   hosted_saas: false
@@ -549,7 +549,7 @@ tools:
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 1.14.3
   license: MIT
@@ -628,7 +628,7 @@ tools:
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 4.0.2
   license: MIT
@@ -3169,6 +3169,13 @@ tools:
   detection_source: node_modules/@sindresorhus/is/package.json
   last_updated_by: var-greyShader
   last_updated_on: 2020-06-02 17:02:15.000000000 Z
+  vulnerabilities:
+  - name: NPM IP package incorrectly identifies some private IP addresses as public
+    cve_id: CVE-2023-42282
+    cve_url: https://github.com/advisories/GHSA-78xj-cgh5-2h22
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 1.1.9
 - name: ipaddr.js
   description: A library for manipulating IPv4 and IPv6 addresses in JavaScript
   package_url: https://www.npmjs.com/ipaddr.js
